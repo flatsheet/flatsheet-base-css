@@ -1,0 +1,30 @@
+{
+  "name": "flatsheet-base-css",
+  "version": "1.0.0",
+  "description": "base css for flatsheet",
+  "style": "style.css",
+  "scripts": {
+    "build": "sheetify source.css | myth > style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flatsheet/flatsheet-base-css.git"
+  },
+  "author": "sethvincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flatsheet/flatsheet-base-css/issues"
+  },
+  "homepage": "https://github.com/flatsheet/flatsheet-base-css#readme",
+  "dependencies": {
+    "basscss-grid": "^1.0.3",
+    "csskit": "^1.1.1",
+    "normalize.css": "^3.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.6",
+    "myth": "^1.5.0",
+    "sheetify": "^2.0.0",
+    "zuul": "^3.2.0"
+  }
+}
